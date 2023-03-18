@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  background-color: #eee;
+}
+.header-nav-bar {
+  width: 100%;
+  background-color: #fff;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  border-bottom: 1px solid #dadada;
+}
+.nav-bar h1 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #111;
+}
+
+nav ul {
+  display: flex;
+}
+nav ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 25px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #666;
+  font-size: large;
+}
+nav ul li a:hover {
+  color: #1c81b8;
+}
+.home-dropdown {
+  font-weight: 600;
+}
+li.home-dropdown i {
+  font-size: 12px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-top: 120px;
+  width: 200px;
+  background-color: rgba(26, 26, 26, 0.5);
+  padding: 5px;
+  border-radius: 10px;
+}
+.dropdown-content a {
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+  color: #fff;
+  font-weight: 300;
+}
+.dropdown-content a:hover {
+  transition: all ease-in-out 0.1s;
+}
+.home-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.sign-up {
+  background-color: #1c81b8;
+  padding: 0.5rem;
+  border-radius: 30px;
+  font-size: 16px;
+}
+.sign-up a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #eee;
+}
+.sign-up:hover {
+  background-color: #4792bb;
+}
+.presentation-container {
+  display: flex;
+  padding: 25px;
+  min-height: 40vh;
+  color: #111;
+  border-bottom: 1px solid #dadada;
+}
+.presentation-container .side-bar {
+  max-width: 40%;
+}
+.presentation-container .side-bar label {
+  font-weight: 600;
+  font-size: 24px;
+}
+.presentation-container .side-bar h2 {
+  font-size: 30pt;
+}
+.presentation-container p {
+  font-weight: 400;
+  font-size: 20pt;
+  margin-top: 20px;
+  color: #333;
+}
+.side-bar a button {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 1.5rem 1.5rem;
+  margin-top: 25px;
+  margin-right: 25px;
+  font-size: 14pt;
+  font-weight: 550;
+  background-color: #1c81b8;
+  color: #fff;
+  transition: all 0.1s ease-in-out;
+}
+.side-bar a button:hover {
+  border: 2px solid #1c81b8;
+  background-color: #fff;
+  color: #1c81b8;
+}
+.img-side-bar {
+  width: 755px;
+}
+.img-side-bar .img {
+  background-image: url(/imgs/giving-guitar-lessons-to.jpg);
+  background-size: cover;
+  height: 500px;
+  margin-left: 25px;
+  border-radius: 10px;
+}
+.map-class-container {
+  max-width: 100%;
+  margin-top: 50px;
+  min-height: 500px;
+  text-align: center;
+}
+.map-class-container h3 {
+  font-size: 26pt;
+  font-weight: 500;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.cards-container a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #111;
+}
+.cards-video {
+  width: 200px;
+  text-align: center;
+  margin-right: 25px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  box-shadow: 7px 7px 15px rgba(26, 26, 26, 0.5);
+}
+.card-img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.img-1 {
+  background-image: url(/imgs/aula_violao.jpg);
+  background-size: cover;
+}
+.img-2 {
+  background-image: url(/imgs/teoria-musical.jpg);
+  background-size: cover;
+}
+.img-3 {
+  background-image: url(/imgs/modos_gregos.jpg);
+  background-size: cover;
+}
+.img-4 {
+  background-image: url(/imgs/escala_diatonica.jpg);
+  background-size: cover;
+}
+.label-img {
+  text-align: center;
+  padding: 5px;
+}
+.cards-video:hover,
+.cards-video a:hover {
+  transition: all ease-in-out 0.4s;
+  background-color: #1c81b8;
+  color: #fff;
+}
+.class-text,
+.class-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 50vh;
+  padding: 25px;
+  background-color: #fff;
+}
+.introduction-content {
+  width: 60%;
+}
+.class-text h3 {
+  font-size: 28pt;
+  margin-bottom: 25px;
+}
+.class-text p {
+  font-size: 18pt;
+  font-weight: 400;
+  margin-top: 25px;
+  color: #292929;
+}
+footer {
+  padding: 20px;
+  border-top: 1px solid #dadada;
+  text-align: center;
+  background-color: #c4c4c4;
+}
+
+.contact-icons ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.contact-icons ul li {
+  list-style: none;
+  padding: 10px;
+}
+.contact-icons ul li a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16pt;
+  color: #666;
+}
+.face-icon:hover {
+  color: #1c81b8;
+}
+.insta-icon:hover {
+  color: #e1306c;
+}
+.whats-icon:hover {
+  color: #4fcf45;
+}
