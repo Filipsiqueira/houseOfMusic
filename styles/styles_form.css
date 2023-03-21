@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(45deg, #165475, #3181ac, #256486, #3086b4);
+}
+.form-container {
+  display: flex;
+  width: 400px;
+  height: 350px;
+  flex-direction: column;
+  padding: 25px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.form-container h2 {
+  font-size: 24pt;
+  font-weight: 400;
+}
+label,
+input {
+  font-size: 14pt;
+  font-weight: 200;
+  padding: 10px;
+  outline: none;
+}
