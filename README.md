@@ -11,4 +11,3 @@ Me inspirei no site da Devmedia para construir o layout da pagina inicial e a pr
 - HTML
 - CSS
 
-### Data de desenvolvimento: 02/03/2023
