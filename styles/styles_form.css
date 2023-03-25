@@ -5,23 +5,27 @@
   font-family: "Open Sans", sans-serif;
 }
 body {
-  display: flex;
   width: 100vw;
   height: 100vh;
-  justify-content: center;
-  align-items: center;
   background-image: linear-gradient(45deg, #165475, #3181ac, #256486, #3086b4);
 }
+
 .form-container {
+  position: relative;
+  animation: form-down 1.5s;
   display: flex;
+  flex-direction: column;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 400px;
   height: 450px;
-  flex-direction: column;
   padding: 25px;
   border: 1px solid #999;
   border-radius: 5px;
   background-color: #fff;
 }
+
 .form-container h1 {
   font-size: 24pt;
   font-weight: 400;
@@ -47,7 +51,7 @@ input {
   width: 80%;
   padding: 10px;
   font-size: larger;
-  font-weight: 400;
+  font-weight: 300;
   font-family: "Open Sans", sans-serif;
   background-color: #3181ac;
   border: none;
@@ -57,5 +61,31 @@ input {
 .cta-btn button:hover {
   transition: all ease-in-out 0.2s;
   background-color: #4e8cad;
-  color: #222;
+  color: #d9f8d9;
+}
+.msg-congrats {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.msg-congrats p {
+  width: 40%;
+  margin-bottom: 15px;
+  font-size: 18pt;
+  font-weight: 100;
+  color: #d9f8d9;
+}
+.hide {
+  display: none;
+}
+@keyframes form-down {
+  from {
+    transform: translate(-50%, -100%);
+  }
+  to {
+    transform: translate(-50%, -50%);
+  }
 }

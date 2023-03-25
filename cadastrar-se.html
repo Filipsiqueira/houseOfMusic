@@ -9,20 +9,32 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <script src="js/main.js" defer></script>
     <title>Cadastrar-se</title>
   </head>
   <body>
     <form class="form-container">
       <h1>Criar conta grátis</h1>
       <label for="name">Nome</label>
-      <input type="text" placeholder="Nome" id="name" />
+      <input type="text" placeholder="Digite seu nome..." id="name" />
       <label for="email">Email</label>
-      <input type="email" placeholder="Email" id="email" />
+      <input type="email" placeholder="Digite seu melhor email..." id="email" />
       <label for="password">Senha</label>
-      <input type="password" placeholder="Digite uma senha" id="password" />
+      <input
+        type="password"
+        placeholder="Digite uma senha forte..."
+        id="password"
+      />
       <div class="cta-btn">
         <button type="submit">Cadastrar</button>
       </div>
     </form>
+    <div class="msg-congrats hide">
+      <p>
+        Parabéns! Sua conta foi criada com sucesso! Fique de olho no seu email
+        pois lá sempre enviremos informações das novidades sobre eventuais
+        cursos novos, promoções e muito mais.
+      </p>
+    </div>
   </body>
 </html>
