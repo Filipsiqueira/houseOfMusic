@@ -10,5 +10,5 @@ Me inspirei no site da Devmedia para construir o layout da pagina inicial e a pr
 ## Tecnologias:
 - HTML
 - CSS
+- Javascript
 
-### Data de desenvolvimento: 02/03/2023
